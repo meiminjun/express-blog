@@ -1,0 +1,105 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\anzhuang\\nodejs\\\\node.exe',
+1 verbose cli   'D:\\anzhuang\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.34
+4 verbose node symlink D:\anzhuang\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ 'E:\\nodejs\\blog',
+6 verbose install   [ 'express',
+6 verbose install     'body-parser',
+6 verbose install     'cookie-parser',
+6 verbose install     'morgan',
+6 verbose install     'serve-favicon',
+6 verbose install     'debug',
+6 verbose install     'ejs',
+6 verbose install     'mongodb',
+6 verbose install     'express-session',
+6 verbose install     'connect-mongo',
+6 verbose install     'connect-flash' ] ]
+7 info preinstall blog@0.0.0
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping express@~4.9.0 E:\nodejs\blog
+10 verbose already installed skipping body-parser@~1.8.1 E:\nodejs\blog
+11 verbose already installed skipping cookie-parser@~1.3.3 E:\nodejs\blog
+12 verbose already installed skipping morgan@~1.3.0 E:\nodejs\blog
+13 verbose already installed skipping serve-favicon@~2.1.3 E:\nodejs\blog
+14 verbose already installed skipping debug@~2.0.0 E:\nodejs\blog
+15 verbose already installed skipping ejs@~0.8.5 E:\nodejs\blog
+16 verbose already installed skipping mongodb@1.4.15 E:\nodejs\blog
+17 verbose already installed skipping express-session@1.9.1 E:\nodejs\blog
+18 verbose already installed skipping connect-mongo@0.4.1 E:\nodejs\blog
+19 verbose cache add [ 'connect-flash@0.1.11', null ]
+20 verbose cache add name=undefined spec="connect-flash@0.1.11" args=["connect-flash@0.1.11",null]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: 'connect-flash@0.1.11',
+21 verbose parsed url   path: 'connect-flash@0.1.11',
+21 verbose parsed url   href: 'connect-flash@0.1.11' }
+22 verbose cache add name="connect-flash" spec="0.1.11" args=["connect-flash","0.1.11"]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: '0.1.11',
+23 verbose parsed url   path: '0.1.11',
+23 verbose parsed url   href: '0.1.11' }
+24 verbose addNamed [ 'connect-flash', '0.1.11' ]
+25 verbose addNamed [ '0.1.11', '0.1.11' ]
+26 silly lockFile 8239f718-connect-flash-0-1-11 connect-flash@0.1.11
+27 verbose lock connect-flash@0.1.11 C:\Users\Administrator.ISS21010200526\AppData\Roaming\npm-cache\8239f718-connect-flash-0-1-11.lock
+28 verbose request where is /connect-flash
+29 verbose request registry https://registry.npmjs.org/
+30 verbose request id 7c60aa1a3bee540c
+31 verbose url raw /connect-flash
+32 verbose url resolving [ 'https://registry.npmjs.org/', './connect-flash' ]
+33 verbose url resolved https://registry.npmjs.org/connect-flash
+34 verbose request where is https://registry.npmjs.org/connect-flash
+35 info trying registry request attempt 1 at 14:34:53
+36 http GET https://registry.npmjs.org/connect-flash
+37 http 200 https://registry.npmjs.org/connect-flash
+38 silly registry.get cb [ 200,
+38 silly registry.get   { date: 'Tue, 23 Dec 2014 06:34:53 GMT',
+38 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+38 silly registry.get     etag: '"579TPX03MH8XJJ3VBAUAVPA6T"',
+38 silly registry.get     'content-type': 'application/json',
+38 silly registry.get     'cache-control': 'max-age=60',
+38 silly registry.get     'content-length': '5809',
+38 silly registry.get     'accept-ranges': 'bytes',
+38 silly registry.get     via: '1.1 varnish',
+38 silly registry.get     age: '0',
+38 silly registry.get     'x-served-by': 'cache-ty67-TYO',
+38 silly registry.get     'x-cache': 'HIT',
+38 silly registry.get     'x-cache-hits': '1',
+38 silly registry.get     'x-timer': 'S1419316493.535961,VS0,VE115',
+38 silly registry.get     vary: 'Accept',
+38 silly registry.get     'keep-alive': 'timeout=10, max=50',
+38 silly registry.get     connection: 'Keep-Alive' } ]
+39 silly lockFile 8239f718-connect-flash-0-1-11 connect-flash@0.1.11
+40 silly lockFile 8239f718-connect-flash-0-1-11 connect-flash@0.1.11
+41 error Error: version not found: connect-flash@0.1.11
+41 error     at D:\anzhuang\nodejs\node_modules\npm\lib\cache\add-named.js:125:12
+41 error     at saved (D:\anzhuang\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\get.js:167:7)
+41 error     at Object.oncomplete (fs.js:108:15)
+42 error If you need help, you may report this *entire* log,
+42 error including the npm and node versions, at:
+42 error     <http://github.com/npm/npm/issues>
+43 error System Windows_NT 6.1.7601
+44 error command "D:\\anzhuang\\nodejs\\\\node.exe" "D:\\anzhuang\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+45 error cwd E:\nodejs\blog
+46 error node -v v0.10.34
+47 error npm -v 1.4.28
+48 verbose exit [ 1, true ]
